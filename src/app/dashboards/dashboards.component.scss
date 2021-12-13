@@ -1,0 +1,200 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+}
+.group {
+  justify-content: flex-end;
+  width: 21.7%;
+  min-width: 52px;
+  height: 100%;
+  min-height: 40px;
+  position: relative;
+}
+.right {
+  position: absolute;
+  width: 240px;
+  min-width: 240px;
+  top: calc(50% - 20px);
+  right: 20px;
+  height: 40px;
+  justify-content: space-between;
+  min-height: 40px;
+}
+.left {
+  width: 152px;
+  min-width: 152px;
+  height: 40px;
+  justify-content: space-between;
+  min-height: 40px;
+  position: relative;
+}
+.group_1 {
+  width: 78.3%;
+  min-width: 188px;
+  padding: 2px 12px 2px 0;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+  min-height: 40px;
+  position: relative;
+}
+.group_2 {
+  width: 250px;
+  min-width: 250px;
+  padding: 28px 0 0 16px;
+  background-color: rgba(0, 0, 0, 0.08);
+  min-height: 840px;
+  height: 100%;
+  position: relative;
+}
+.title {
+  width: 104px;
+  min-width: 104px;
+  height: max-content;
+  position: relative;
+}
+.group_3 {
+  width: calc(95.3% - 250px);
+  min-width: 1122px;
+  padding: 14px 0 0 40px;
+  background-color: rgba(255, 255, 255, 1);
+  min-height: 840px;
+  height: 100%;
+  position: relative;
+}
+.group_4 {
+  width: 768px;
+  height: 395px;
+  min-height: 395px;
+  min-width: 768px;
+  justify-content: space-between;
+  position: relative;
+}
+.title_1 {
+  width: 9.2%;
+  height: 7.1%;
+  min-height: 28px;
+  min-width: 71px;
+  position: relative;
+}
+.title_2 {
+  width: 71px;
+  height: max-content;
+  min-width: 71px;
+  position: relative;
+}
+.group_5 {
+  height: 60px;
+  min-height: 60px;
+  padding: 0 0 0 20px;
+  background-color: rgba(114, 218, 103, 1);
+  align-items: center;
+  min-width: 1440px;
+  width: 100%;
+  position: relative;
+}
+.group_6 {
+  height: calc(100% - 60px);
+  min-width: 1440px;
+  min-height: 840px;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+}
+.cards {
+  height: 86.8%;
+  min-height: 343px;
+  min-width: 768px;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+}
+.dashboards {
+  min-height: 900px;
+  min-width: 1440px;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  position: relative;
+}
+.actions-content {
+  min-width: 50px;
+  min-height: 40px;
+}
+.icon-notifications {
+  margin: 0 0 0 16px;
+  min-width: min-content;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  position: relative;
+}
+.icon-chat {
+  min-width: min-content;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  position: relative;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  position: relative;
+}
+.avatar {
+  position: relative;
+}
+.button {
+  position: absolute;
+  width: max-content;
+  right: 24px;
+  bottom: 24px;
+  height: max-content;
+}
+.button_1 {
+  margin: 2px 0;
+  width: 104px;
+  position: relative;
+  min-width: min-content;
+  height: max-content;
+}
+.button_2 {
+  width: 96px;
+  position: relative;
+  min-width: min-content;
+  height: max-content;
+}
+.nav-drawer {
+  width: 320px;
+  min-width: min-content;
+}
+.nav-drawer-item {
+  min-width: 0;
+  position: relative;
+  min-height: 0;
+}
+.span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.listone-line-item-list {
+  position: relative;
+  margin: 24px 0 0;
+  width: 218px;
+}
+.card {
+  position: relative;
+  width: 31.2%;
+  height: max-content;
+  min-width: min-content;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
